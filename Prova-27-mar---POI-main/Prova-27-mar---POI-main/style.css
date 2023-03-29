@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 1;
+    font-family: 'Montserrat', sans-serif;
+    background: no-repeat center/cover url('https://vasco.com.br/wp-content/themes/VascoTemplate/img/padrao_g.webp');
+    height: calc(100vh - 100px);
+}
+
+ul{
+    list-style: disc;
+    font-weight: bold;
+    left: 1px;
+}
+
+a {
+    text-decoration:none;
+    color: rgb(235, 235, 235);
+}
+
+h1{
+    color: rgb(255, 250, 250);
+    font-size: rem;
+}
+
+h2{
+    color: rgb(204, 214, 216);
+    font-size: 2rem;
+}
+
+button{
+    padding: 10px 15px;
+    border-radius: 20px;
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+}
+
+h4{
+    color: black;
+    font-size: 0.9rem;
+}
+
+p{
+    color: black;
+    font-style: italic;
+}
+
+header{
+    background: no-repeat center/cover url('assets/falonada.jfif');
+    height: calc(120vh - 150px);
+}
+
+header nav{
+    display:flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    margin: 15px;
+    padding: 18px;
+}
+
+.header-content{
+    max-width: 50000px;
+    margin: 300px auto;
+    text-align: center;
+}
+
+.header-content h1{
+    margin-bottom: 10px;
+    font-size: 5rem;
+}
+
+.jogadores{
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    top: 10px;
+}
+
+.jogadores .jogadores-cards{
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.jogadores .jogadores-title{
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.jogadores .card{
+    width: 250px;
+    height: 400px;
+    background:rgb(255, 255, 255);
+    border-radius: 25px 0;
+    margin: 25px;
+    position:relative;
+    margin-left: 99px;
+    transition: all 1s;
+}
+
+.jogadores .card-image{
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 0 0 0;
+    object-fit: cover;
+}
+
+.jogadores .card-content{
+    padding: 0 15px;
+
+}
+
+.jogadores .card-content ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.jogadores .card-content ul li{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin: 3px;
+    color: rgb(0, 0, 0);
+    font-weight: bold
+}
+
+.jogadores .card-content li svg{
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+li{
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+}
+
+.header .nav .h1{
+    margin: 6px;
+}
+
+.jogadores .card-content h1{
+    font-size: 1rem;
+}
+
+.jogadores .card-contentli h1{
+    font-size: 1rem;
+}
+
+.jogadores .card .card-tag-top{
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background: #f19b39;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.jogadores .card .card-tag-bottom{
+    position: absolute;
+    left: 0;
+    top: 160px;
+    background: #000000;
+    border-radius: 0 8px 8px 0;
+    padding: 5px 10px;
+}
+
+.jogadores .card .card-tag p{
+    margin: 0;
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.servicos .servicos-cards{
+    margin: 25px;
+    display: flex;
+    max-width: 950px;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.servicos .card{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.card .card-content p{
+    font-size: 1rem;
+}
+
+.servicos .card svg{
+    width: 60px;
+    height: 60px;
+    margin:10px;
+    transition: all 1s;
+}
+
+.servicos .card svg:hover{
+    stroke: rgb(160, 69, 69);
+    transform: scale(1.1);
+}
+
+.servicos .card p{
+    color: rgb(0, 0, 0);
+    font-size: 1rem ;
+    text-align: center;
+}
+
+.servicos .card .card-content{
+    height: 180px;
+    text-align: center;
+}
+
+.contato{
+    padding: 60px;
+    background: rgb(0, 0, 0);
+    background-position-y:center;
+    position: relative;
+    text-align: right;
+    margin-top: 60px;
+}
+
+.contato .contato-card{
+    width: 480px;
+    height: 427px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 99;
+    border-radius: 8px;
+    top: calc(50% - 150px);
+    left: calc(20% - 175px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contato .contato-card h1{
+    padding: 20px;
+    text-align: left;
+}
+
+.contato .contato-card li{
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    display: flex;
+    height: 39px;
+    margin-right: 46px;
+    padding: 33px;
+    
+}
+
+.jogadores .card-content h1{
+    color: rgb(0, 0, 0);
+}
+
+.contato-card h1{
+    color: black;
+}
