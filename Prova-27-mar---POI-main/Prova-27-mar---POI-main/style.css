@@ -89,7 +89,7 @@ header nav ul li{
 .jogadores{
     background: rgb(0, 0, 0);
     padding: 20px;
-    top: 10px;
+    margin-top: 30px;
 }
 
 .jogadores .jogadores-cards{
@@ -192,49 +192,9 @@ li{
     font-weight: bold;
 }
 
-.servicos .servicos-cards{
-    margin: 25px;
-    display: flex;
-    max-width: 950px;
-    justify-content: center;
-    margin: auto;
-    flex-wrap: wrap;
-}
-
-.servicos .card{
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 20px;
-}
 
 .card .card-content p{
     font-size: 1rem;
-}
-
-.servicos .card svg{
-    width: 60px;
-    height: 60px;
-    margin:10px;
-    transition: all 1s;
-}
-
-.servicos .card svg:hover{
-    stroke: rgb(160, 69, 69);
-    transform: scale(1.1);
-}
-
-.servicos .card p{
-    color: rgb(0, 0, 0);
-    font-size: 1rem ;
-    text-align: center;
-}
-
-.servicos .card .card-content{
-    height: 180px;
-    text-align: center;
 }
 
 .contato{
@@ -243,7 +203,7 @@ li{
     background-position-y:center;
     position: relative;
     text-align: right;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .contato .contato-card{
